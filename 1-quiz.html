@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Quiz - JavaScript</title>
+
+    <link rel="icon" type="image/x-icon" href="/Media/Favicon/favicon.ico" />
+    <link rel="stylesheet" href="./1-quiz.css" />
+  </head>
+  <body>
+    <main>
+      <section class="quiz">
+        <div class="heading">
+          <p class="title">JavaScript Quiz</p>
+          <p class="subtitle">Question 1 to 5:</p>
+        </div>
+
+        <div class="result hide">
+          <p></p>
+          <p class="reload">
+            <button onclick="refreshPage()">Try again</button>
+          </p>
+        </div>
+
+        <form class="quiz-form">
+          <div class="question">
+            <p>1. Inside which HTML element do we put the JavaScript?</p>
+            <div class="option">
+              <input type="radio" name="q1" value="A" checked />
+              <label for="A">&lt;javascript&gt;</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="B" />
+              <label for="B">&lt;js&gt;</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="C" />
+              <label for="C">&lt;scripting&gt;</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="D" />
+              <label for="D">&lt;script&gt;</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>2. Where is the correct place to insert a JavaScript?</p>
+
+            <div class="option">
+              <input type="radio" name="q2" value="A" checked />
+              <label for="A">The &lt;body&gt; section</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="B" />
+              <label for="B"
+                >Both the &lt;head&gt; section and the &lt;body&gt; section are
+                correct</label
+              >
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="C" />
+              <label for="C">The &lt;head&gt; section</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="D" />
+              <label for="D">The &lt;footer&gt; section</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              3. What is the correct syntax for referring to an external script
+              called "xxx.js"?
+            </p>
+            <div class="option">
+              <input type="radio" name="q3" value="A" checked />
+              <label for="A">&lt; script src="xxx.js"&gt;</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="B" />
+              <label for="B"> &lt;script href="xxx.js"&gt;</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="C" />
+              <label for="C">&lt;script name="xxx.js"&gt;</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="D" />
+              <label for="D"
+                >&lt;script style="stylesheet" href="xxx.js"&gt;</label
+              >
+            </div>
+          </div>
+
+          <div class="question">
+            <p>4. How do you write "Hello World" in an alert box?</p>
+            <div class="option">
+              <input type="radio" name="q4" value="A" checked />
+              <label for="A">alert("Hello World");</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="B" />
+              <label for="B">msg("Hello World");</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="C" />
+              <label for="C">alertBox("Hello World");</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="D" />
+              <label for="D">msgBox("Hello World");</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>5. How do you create a function in JavaScript?</p>
+            <div class="option">
+              <input type="radio" name="q5" value="A" checked />
+              <label for="A">function = muFunction()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="B" />
+              <label for="B">function:myFunction()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="C" />
+              <label for="C">function myFunction()</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="D" />
+              <label for="D">(myFunction) => {}</label>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="./1-quiz.js"></script>
+  </body>
+</html>
