@@ -1,0 +1,82 @@
+:root {
+  --white: f3f3f3;
+  --gray-white: #eeeeee;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 10px auto;
+}
+#img-caption {
+  text-align: center;
+  padding: 15px 0 10px;
+}
+#img-div {
+  background-color: var(--white);
+  padding: 22px;
+  margin: 0px 20px 0px 20px;
+}
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+#main {
+  background-color: var(--gray-white);
+  border-radius: 2px;
+  margin: 20px 10px;
+  padding: 20px 0px;
+}
+#tribute-info {
+  text-align: center;
+  padding: 40px;
+  margin: 0px;
+  font-weight: bolder;
+}
+section {
+  text-align: left;
+
+  justify-content: center;
+  list-style-type: circle;
+  line-height: 2;
+  list-style: disc;
+  margin: 0 20%;
+  min-width: 60%;
+}
+span {
+  font-weight: bold;
+}
+.footer {
+  margin: 0 20%;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto 40px auto;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:active {
+  color: blueviolet;
+}
+a:hover {
+  text-decoration: underline;
+}
+blockquote {
+  font-style: italic;
+  max-width: 90%;
+  margin: 0 auto 70px auto;
+  text-align: left;
+  margin-top: 20px;
+}
